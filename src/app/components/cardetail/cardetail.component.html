@@ -1,0 +1,12 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>BrandName</th>
+      <th>ColorName</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let cardetail of CarDetails">
+    <th>{{ cardetail.brandName }}</th>
+    <th>{{ cardetail.colorName }}</th>
+  </tr>
+</table>
